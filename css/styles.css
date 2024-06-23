@@ -84,7 +84,19 @@ body {
     left: 0;
     background: rgba(0, 0, 0, 0.3);
 }
-img {
+
+.product-card {
+    margin-bottom: 30px;
+}
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+#products{
+    margin-top: 30px;
+}
+.image-bg {
   height: 100%;
   width: 100%;
   object-fit: cover;

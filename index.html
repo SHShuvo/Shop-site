@@ -15,7 +15,7 @@
     <div class="landing">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<div class="container">
-				<a class="navbar-brand" href="#">Shop Management</a>
+				<a class="navbar-brand" href="#">Authentic Shop </a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
@@ -28,7 +28,7 @@
 							<a class="nav-link" aria-current="page" href="#food">Food</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" aria-current="page" href="#candle">Candle</a>
+							<a class="nav-link" aria-current="page" href="#products">Products</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" aria-current="page" href="#contact_us">Contact Us</a>
@@ -42,7 +42,7 @@
 		</nav>
 
 		<div id="food" class="image-container">
-			<img src="img/food.jpg" alt="Full-screen image">
+			<img class="image-bg" src="img/food.jpg" alt="Full-screen image">
 			<div class="shadow"></div>
 			<div class="img-caption">
 				<div class="title">Indian Food</div>
@@ -50,15 +50,79 @@
 				<button class="btn-img btn btn-outline-warning btn-lg">Learn more</button>
 			</div>
 		</div>
-		<div style="margin-top:80px" id="candle" class="image-container">
-			<img src="img/candle.jpg" alt="Full-screen image">
+		<!-- <div style="margin-top:80px" id="candle" class="image-container">
+			<img class="image-bg" src="img/candle.jpg" alt="Full-screen image">
 			<div class="shadow"></div>
 			<div class="img-caption">
 				<div class="title">Premium Candle</div>
 				<div class="description">House of Premium food in Canada</div>
 				<button class="btn-img btn btn-outline-warning btn-lg">Learn more</button>
 			</div>
+		</div> -->
+
+		<div id="products">
+			<div class="container" s>
+				<div class="row">
+					<div class="col-md-4 product-card">
+						<div class="card">
+						<img src="img/products/chicken.jpeg" class="card-img-top product-image" alt="Product 1">
+						<div class="card-body">
+							<h5 class="card-title">Chicken</h5>
+							<p class="card-text">A sustainable water bottle with built-in filtration and hydration tracking.</p>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-4 product-card">
+						<div class="card">
+						<img src="img/products/ducs.jpg" class="card-img-top product-image" alt="Product 3">
+						<div class="card-body">
+							<h5 class="card-title">Ducs</h5>
+							<p class="card-text">A versatile backpack with rearrangeable compartments for different needs.</p>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-4 product-card">
+						<div class="card">
+						<img src="img/products/cow.jpg" class="card-img-top product-image" alt="Product 2">
+						<div class="card-body">
+							<h5 class="card-title">Cow milk</h5>
+							<p class="card-text">A smartwatch that combines vintage aesthetics with modern technology.</p>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 product-card">
+						<div class="card">
+						<img src="img/products/egg.jpg" class="card-img-top product-image" alt="Product 3">
+						<div class="card-body">
+							<h5 class="card-title">Village Eggs</h5>
+							<p class="card-text">A versatile backpack with rearrangeable compartments for different needs.</p>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-4 product-card">
+						<div class="card">
+						<img src="img/products/vegetable.jpg" class="card-img-top product-image" alt="Product 1">
+						<div class="card-body">
+							<h5 class="card-title">Vegetable</h5>
+							<p class="card-text">A sustainable water bottle with built-in filtration and hydration tracking.</p>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-4 product-card">
+						<div class="card">
+						<img src="img/products/fruts.webp" class="card-img-top product-image" alt="Product 2">
+						<div class="card-body">
+							<h5 class="card-title">Fruits</h5>
+							<p class="card-text">A smartwatch that combines vintage aesthetics with modern technology.</p>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+
 		<div id="contact_us" class="contact">
 			<div class="row">
 				<div class="col-md-12 contact-address">
@@ -98,24 +162,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-md-8 contact-form">
-					<h4 class="mb-3 fw-bold">Get in touch</h4>
-					<div class="form-group">
-						<label for="name">Name:</label>
-						<input type="text" v-model="messageForm.name" class="form-control form-control-sm" required>
-					</div>
-					<div class="form-group mt-2">
-						<label for="email">Email:</label>
-						<input type="email" v-model="messageForm.email" class="form-control form-control-sm" required>
-					</div>
-					<div class="form-group mt-2">
-						<label for="message">Message:</label>
-						<textarea v-model="messageForm.message" class="form-control form-control-sm" rows="5" required></textarea>
-					</div>
-					<div class="d-flex justify-content-end">
-						<button @click.prevent="submitMessage" class="btn btn-sm btn-success mt-2 float-right">Submit</button>
-					</div>
-				</div> -->
 			</div>
 		</div>
 		<div id="about_us" class="footer">
